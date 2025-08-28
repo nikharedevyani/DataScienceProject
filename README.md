@@ -48,7 +48,7 @@ The project’s core objective is to develop machine learning pipelines that cla
 
 ```bash
 ├── data/                  # Raw and preprocessed data files (not always included due to size)
-├── project_code/          # Python scripts for standalone preprocessing, modeling, and results generation; Output performance reports, charts, confusion matrices, and ROC curves
+├── final_code/          # Python scripts for standalone preprocessing, modeling, and results generation; Output performance reports, charts, confusion matrices, and ROC curves
 ├── requirements.txt       # Python dependencies for easy environment setup
 ├── README.md              # Project overview and documentation (this file)
 └── LICENSE                # MIT license file
