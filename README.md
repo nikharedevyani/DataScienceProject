@@ -84,7 +84,7 @@ pip install -r requirements.txt
   Execute feature engineering notebooks to create input features including sensor axes, smoothed HR, and activity-specific HR baselines.
 
 - **Model Training:**  
-  Train classifiers with hyperparameter tuning using GridSearchCV. Models save performance reports and confusion matrices to `/results/`.
+  Train classifiers with hyperparameter tuning using GridSearchCV. Models save performance reports and confusion matrices in same file.
 
 - **Stress Detection:**  
   Generate binary stress labels using HR baseline thresholds and train RF and LR classifiers to detect stress with activity context.
